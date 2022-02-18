@@ -1,6 +1,6 @@
 # google-translate-conversation
 ## Description
-This simple project uses a recorded *.mp3* file and then uses Google Translate API to convert the speech to text, then text to the other person's native language and back to a *.mp3* file format.
+This simple project will prompt a user for the native language and a target language. Each turn will record the user and convert the text and output the transcript as will as an auditory text-to-speech. 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -16,7 +16,7 @@ For playing the text-to-speech in the command line, install the following for Ma
 brew install mpg321
 ```
 ## Usage
-Simply record a *.mp3* sound and drop into the root folder and run the python script. Once running, there will be a prompt for a native language, as well as the language that this sound sample will be exported as.
+Simply run the program through the command line, and you'll be prompted for the native language and the language that will be converted to. Once running you will have 5 seconds to record a small conversation that will be recorded and translated to the other supported language. You will be prompted each time to continue the conversation.
 
 That's it! Enjoy!
 
